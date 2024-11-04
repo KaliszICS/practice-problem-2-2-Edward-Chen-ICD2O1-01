@@ -12,15 +12,14 @@ def q1():
 def q2(): 
   #Write Assignment code here
   num= float(input("Input a number: "))
-  num1=0
-  if num > num1:
-    print("Postive")
+  if num > 0:
+    print("Positive")
   else:
     print("Negative")
 
 def q3(): 
   #Write Assignment code here
-  num= float(input("Input an integer: "))
+  num= int(input("Input an integer: "))
   if num %2==0:
     print("Even")
   else:
@@ -28,7 +27,7 @@ def q3():
 
 def q4(): 
   #Write Assignment code here
-  word= input('Type"Hello": ')
+  word= input('Type "Hello": ')
   if word == "Hello":
     print("The word is Hello")
   else:
